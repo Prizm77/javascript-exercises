@@ -31,3 +31,8 @@ container.appendChild(content);
 container.appendChild(redText);
 container.appendChild(blueText);
 container.appendChild(colorDiv);
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', () => {
+    alert('hello world');
+});
